@@ -1,0 +1,48 @@
+{
+  "name": "Foundry-VTT-OSE-TW",
+  "title": "Old-School Essentials 正體中文",
+  "description": "為 Old-School Essentials FVTT 系统增加正體中文。",
+  "author": "Sass",
+  "authors": [],
+  "url": "https://github.com/FVTT-zh-TW/Foundry-VTT-OSE-TW",
+  "flags": {},
+  "version": "0.8.6",
+  "minimumCoreVersion": "0.6.5",
+  "compatibleCoreVersion": "0.8.9",
+  "esmodules": [],
+  "styles": [],
+  "languages": [
+    {
+      "lang": "zh-TW",
+      "name": "正體中文",
+      "path": "./lang/zh-TW.json"
+    }
+  ],
+    "packs": [
+    {
+      "name": "Actor",
+      "label": "生物",
+      "path": "./packs/Actor.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "Item",
+      "label": "物品",
+      "path": "./packs/Item.db",
+      "entity": "Item"
+    },
+    {
+      "name": "Rules",
+      "label": "規則",
+      "path": "./packs/Rules.db",
+      "entity": "JournalEntry"
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/FVTT-zh-TW/foundry_zh_TW/0.8.6/module.json",
+  "download": "https://github.com/FVTT-zh-TW/foundry_zh_TW/archive/refs/tags/0.8.6.zip",
+  "protected": false,
+  "coreTranslation": true
+}
