@@ -1,1 +1,1 @@
-# Foundry-VTT-Shadowrun5E-TW
+# Foundry-VTT-OSE-TW
