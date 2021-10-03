@@ -7,7 +7,7 @@
   "url": "https://github.com/FVTT-zh-TW/Foundry-VTT-OSE-TW",
   "flags": {},
   "version": "0.8.6",
-  "minimumCoreVersion": "0.6.5",
+  "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "0.8.9",
   "esmodules": [],
   "styles": [],
@@ -26,9 +26,111 @@
       "entity": "Actor"
     },
     {
+      "name": "Player",
+      "label": "玩家角色",
+      "path": "./packs/Player.db",
+      "entity": "Actor"
+    },
+    {
       "name": "Item",
       "label": "物品",
       "path": "./packs/Item.db",
+      "entity": "Item"
+    },
+    {
+      "name": "equipment-adventuring-gear",
+      "label": "裝備: 冒險裝備",
+      "path": "packs/equipment-adventuring-gear.db",
+      "entity": "Item"
+    },
+    {
+      "name": "equipment-ammunition",
+      "label": "裝備: 彈藥",      
+      "path": "packs/equipment-ammunition.db",
+      "entity": "Item"
+    },
+    {
+      "name": "equipment-armour",
+      "label": "裝備: 盔甲",      
+      "path": "packs/equipment-armour.db",
+      "entity": "Item"
+    },
+    {
+      "name": "equipment-coins",
+      "label": "裝備: 硬幣",      
+      "path": "packs/equipment-coins.db",
+      "entity": "Item"
+    },
+    {
+      "name": "equipment-weapons",
+      "label": "裝備: 武器",      
+      "path": "packs/equipment-weapons.db",
+      "entity": "Item"
+    },
+    {
+      "name": "monsters",
+      "label": "怪物",      
+      "path": "packs/monsters.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "tables-items",
+      "label": "表格: 物品",      
+      "path": "packs/tables-items.db",
+      "entity": "RollTable"
+    },
+    {
+      "name": "treasures",
+      "label": "寶藏表",      
+      "path": "packs/treasures.db",
+      "entity": "RollTable"
+    },
+    {
+      "name": "treasures-armour-shields",
+      "label": "寶藏: 盔甲和盾牌",      
+      "path": "packs/treasures-armour-shields.db",
+      "entity": "Item"
+    },
+    {
+      "name": "treasures-miscellaneous-items",
+      "label": "寶藏: 雜物",
+      
+      "path": "packs/treasures-miscellaneous-items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "treasures-potions",
+      "label": "寶藏: 藥水",
+      
+      "path": "packs/treasures-potions.db",
+      "entity": "Item"
+    },
+    {
+      "name": "treasures-rings",
+      "label": "寶藏: 戒指",
+      
+      "path": "packs/treasures-rings.db",
+      "entity": "Item"
+    },
+    {
+      "name": "treasures-rods-staffs-wands",
+      "label": "寶藏: 權杖，法仗，魔仗",
+      
+      "path": "packs/treasures-rods-staffs-wands.db",
+      "entity": "Item"
+    },
+    {
+      "name": "treasures-swords",
+      "label": "寶藏: 劍",
+      
+      "path": "packs/treasures-swords.db",
+      "entity": "Item"
+    },
+    {
+      "name": "treasures-weapons",
+      "label": "寶藏: 武器",
+      
+      "path": "packs/treasures-weapons.db",
       "entity": "Item"
     },
     {
