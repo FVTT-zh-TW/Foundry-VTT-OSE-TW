@@ -138,6 +138,12 @@
       "label": "規則",
       "path": "./packs/Rules.db",
       "entity": "JournalEntry"
+    },
+    {
+      "label": "各種場景",      
+      "name": "Scene",
+      "path": "packs/Scene.db",
+      "entity": "Scene"
     }
   ],
   "system": [],
